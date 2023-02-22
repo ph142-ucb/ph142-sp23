@@ -12,7 +12,7 @@ test = list(
         })
 
         test_that("p11c", {
-          expect_true(all.equal(p11, .6720, tol = 0.01))
+          expect_true(all.equal(p11,  .6270016, tol = 0.01))
           print("Checking: p11 is the correct probability")
         })
       }
