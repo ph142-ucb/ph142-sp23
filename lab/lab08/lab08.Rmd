@@ -166,12 +166,12 @@ Flip a coin to see which hand to play the game with first:
 ```{r}
 our_sheet <- read_csv("data/our_sheet.csv")
 
-dominant_num_dots_hit <- NULL # YOUR CODE HERE
-non_dominant_num_dots_hit <- NULL # YOUR CODE HERE
-dominant_hand_first <- NULL # YOUR CODE HERE - TRUE/FALSE
-Student_name <- NULL # YOUR CODE HERE - Name as a 'string'
+dom_num_dots_hit <- NULL # YOUR CODE HERE
+non_dom_num_dots_hit <- NULL # YOUR CODE HERE
+dom_hand_first <- NULL # YOUR CODE HERE - TRUE/FALSE
+name <- NULL # YOUR CODE HERE - Name as a 'string'
 
-our_sheet <- rbind(our_sheet, list(dominant_num_dots_hit, non_dominant_num_dots_hit, dominant_hand_first, Student_name))
+our_sheet <- rbind(our_sheet, list(dom_num_dots_hit, non_dom_num_dots_hit, dom_hand_first, name))
 our_sheet
 ```
 
